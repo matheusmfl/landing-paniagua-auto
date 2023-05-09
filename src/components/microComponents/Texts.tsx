@@ -2,7 +2,7 @@ import { ReactNode } from 'react'
 
 type titleProps = {
   children: ReactNode
-  style: string
+  style?: string
 }
 
 export function H1({ children, style }: titleProps) {
