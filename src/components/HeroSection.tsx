@@ -5,7 +5,7 @@ import { Button } from './microComponents/Button'
 
 export function HeroSection() {
   return (
-    <section className="relative w-full pt-7 px-14 pb-60 lg:py-0 lg:px-0 flex items-start justify-center lg:justify-between lg:bg-slate-200">
+    <section className="relative w-full pt-7  px-14 pb-52 lg:py-0 lg:px-0 flex items-start justify-center lg:justify-between lg:bg-slate-200">
       <div className="hidden lg:flex px-40 pt-40 items-start">
         <div className="w-[500px] flex flex-col gap-5">
           <H2 style="text-cyan-900 font-semibold">
