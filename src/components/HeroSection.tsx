@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import heroImg from '../../public/heroImg.jpg'
-import { H2, H3, Span } from './microComponents/Texts'
+import { H2, Span } from './microComponents/Texts'
 import { Button } from './microComponents/Button'
 
 export function HeroSection() {
@@ -25,10 +25,14 @@ export function HeroSection() {
         <Image src={heroImg} alt="Foto de background com carro" />
       </div>
       <div className="px-5 py-2 flex flex-col lg:hidden items-center justify-center bg-slate-100 shadow-lg rounded-lg z-20">
-        <H2 style="text-cyan-900">Tranquilidade ao viajar</H2>
-        <H3 style="text-cyan-900 text-center">
-          O seguro é o seu amigo para as horas mais incertas
-        </H3>
+        <H2 style="text-cyan-900">
+          <span className="font-extrabold">Tranquilidade</span>{' '}
+          <span className="font-normal">
+            para suas viagens,{' '}
+            <span className="text-yellow-600 font-bold">só com seguro </span>
+            automotivo.
+          </span>
+        </H2>
       </div>
     </section>
   )
