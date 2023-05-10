@@ -6,7 +6,7 @@ export function Section1() {
     <section className="px-5 py-20 bg-[#00263F] flex flex-col gap-10 lg:px-40 lg:py-20">
       <div className="lg:hidden">
         <div className="flex flex-col gap-10 text-justify">
-          <Span style="text-slate-50">
+          <Span style="text-slate-50 mt-2">
             Proteja seu veículo e seu bolso com um seguro automotivo. Em caso de
             acidentes, roubo ou danos, alguns seguros oferecem serviços extras,
             como assistência 24 horas e carro reserva.
