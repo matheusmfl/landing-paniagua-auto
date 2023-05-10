@@ -5,10 +5,10 @@ export function Section3() {
   return (
     <>
       <section className=" flex bg-slate-200">
-        <div className="hidden lg:block">
+        <div className="hidden lg:block w-full h-full">
           <Image src={hero} alt="Imagem ilustrativa" />
         </div>
-        <div className="flex flex-col gap-5 py-20 px-4 lg:pt-56 lg:pr-20 lg:pl-24">
+        <div className="flex flex-col gap-5 pt-10 pb-10 px-4 lg:pt-24 lg:pr-10 lg:pl-24">
           <h2 className="text-2xl lg:text-4xl font-normal text-slate-800">
             <span className="font-extrabold">Contrate agora</span> seu seguro
             auto agora mesmo, sem sair de casa e{' '}
@@ -38,7 +38,7 @@ export function Section3() {
             <span className="font-bold text-yellow-800">sem sair de casa</span>
           </h2>
 
-          <span className="text-slate-800 font-normal">
+          <span className="text-white lg:text-slate-900 font-normal">
             Sem dificuldades na hora da contratação.
           </span>
         </div>
