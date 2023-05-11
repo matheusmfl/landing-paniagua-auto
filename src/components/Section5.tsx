@@ -9,6 +9,7 @@ export function Section5() {
           src={image}
           alt="Imagem de carros em trânsito"
           placeholder="blur"
+          fill
         />
       </div>
       <div className="py-20 px-5 flex flex-col gap-5 lg:w-[90%] lg:py-14 lg:px-20">
