@@ -19,7 +19,7 @@ function ItemIcon({ children }: iconProps) {
 
 export function Section4() {
   return (
-    <section className=" flex flex-col bg-[#00263F] py-20 mt-[-60px] lg:mt-0 px-5 lg:px-80 gap-10">
+    <section className=" flex flex-col bg-[#00263F] pt-28 pb-10 mt-[-60px] lg:mt-0 px-5 lg:px-80 gap-10">
       <h2 className="font-normal text-white text-center lg:text-2xl">
         São inúmeras <span className="font-bold">vantagens</span> para promovem
         o seu <span className="font-bold text-yellow-500">bem-estar</span>

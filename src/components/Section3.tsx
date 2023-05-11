@@ -27,7 +27,7 @@ export function Section3() {
         </div>
       </section>
 
-      <section>
+      <section className="lg:hidden">
         <Image src={hero} alt="Imagem de homem no sofá contratando seguro" />
       </section>
     </>
