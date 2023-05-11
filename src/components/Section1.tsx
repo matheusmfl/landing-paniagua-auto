@@ -20,7 +20,7 @@ export function Section1() {
 
       <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-10 lg:gap-0">
         <div>
-          <span className="text-white text-3xl">
+          <span className="text-white text-2xl lg:text-3xl">
             <span className="text-yellow-500">Evite prejuízo</span> financeiros
             <br />
             em caso de <span className="font-extrabold">imprevistos.</span>
