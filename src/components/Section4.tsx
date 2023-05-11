@@ -22,8 +22,8 @@ export function Section4() {
     <section className=" flex flex-col bg-[#00263F] pt-28 pb-10 mt-[-60px] lg:mt-0 px-5 lg:px-80 gap-10">
       <h2 className="font-normal text-white text-center lg:text-2xl">
         São inúmeras <span className="font-bold">vantagens</span> para
-        promoverem o seu{' '}
-        <span className="font-bold text-yellow-500">bem-estar</span>
+        <br className="hidden lg:block" /> promover o seu
+        <span className="font-bold text-yellow-500"> bem-estar</span>
       </h2>
 
       <div className="grid grid-cols-2 grid-rows-2 gap-y-10 lg:flex lg:gap-5 lg:cursor-pointer">
