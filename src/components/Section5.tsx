@@ -21,7 +21,11 @@ export function Section5() {
         </span>
 
         <button className="bg-amber-500 lg:max-w-[284px] mt-5 text-center flex justify-center py-3 text-white text-bold text-lg rounded-lg shadow-xl">
-          <a href="" target="_blank">
+          <a
+            href="https://wa.me/5581999262970?text=Ol%C3%A1+Amanda%21+Gostaria+de+solicitar+uma+cota%C3%A7%C3%A3o+para+meu+seguro+de+autom%C3%B3vel"
+            target="_blank"
+            rel="noreferrer"
+          >
             Solicitar cotação
           </a>
         </button>

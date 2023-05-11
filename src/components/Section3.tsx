@@ -22,7 +22,9 @@ export function Section3() {
           </span>
 
           <button className="w-full text-bold text-lg text-white rounded-md bg-[#00263F] lg:max-w-[284px] py-3 shadow-lg">
-            <a href="">Solicitar cotação</a>
+            <a href="https://wa.me/5581999262970?text=Ol%C3%A1+Amanda%21+Gostaria+de+solicitar+uma+cota%C3%A7%C3%A3o+para+meu+seguro+de+autom%C3%B3vel">
+              Solicitar cotação
+            </a>
           </button>
         </div>
       </section>
