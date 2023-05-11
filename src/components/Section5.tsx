@@ -8,7 +8,7 @@ export function Section5() {
         <Image
           src={image}
           alt="Imagem de carros em trânsito"
-          sizes="(max-width: 600px) 400px, (max-width: 1200px) 800px, 1200px"
+          placeholder="blur"
         />
       </div>
       <div className="py-20 px-5 flex flex-col gap-5 lg:w-[90%] lg:py-14 lg:px-20">
