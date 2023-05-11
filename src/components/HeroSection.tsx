@@ -22,7 +22,11 @@ export function HeroSection() {
         </div>
       </div>
       <div className="absolute lg:static lg:shadow-xl bg-slate-900 top-[-2px] bottom-0 left-0 right-0">
-        <Image src={heroImg} alt="Foto de background com carro" />
+        <Image
+          src={heroImg}
+          alt="Foto de background com carro"
+          loading="lazy"
+        />
       </div>
       <div className="px-5 pt-2 lg:py-2 flex flex-col lg:hidden items-center justify-center bg-slate-100 shadow-lg rounded-lg z-20">
         <H2 style="text-cyan-900">
