@@ -31,7 +31,8 @@ export function Section4() {
             <Image src={icon1} alt="ícone de um Guincho" />
           </ItemIcon>
           <span className="text-center font-normal text-white text-base">
-            Guincho 24 horas em tempo hábil
+            Guincho 24 horas
+            <br /> em tempo hábil
           </span>
         </div>
 
@@ -40,7 +41,8 @@ export function Section4() {
             <Image src={icon2} alt="ícone de um Guincho" />
           </ItemIcon>
           <span className="text-center font-normal text-white text-base">
-            Conte com soluções ágeis
+            Conte com <br />
+            soluções ágeis
           </span>
         </div>
 
@@ -49,7 +51,8 @@ export function Section4() {
             <Image src={icon3} alt="ícone de um Guincho" />
           </ItemIcon>
           <span className="text-center font-normal text-white text-base">
-            Mantenha seu patrimônio seguro
+            Mantenha seu <br />
+            patrimônio seguro
           </span>
         </div>
 
