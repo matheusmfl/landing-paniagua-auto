@@ -12,9 +12,6 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <>
-      <Head>
-        <Analytics />
-      </Head>
       <main>
         <HeroSection />
         <Section1 />
