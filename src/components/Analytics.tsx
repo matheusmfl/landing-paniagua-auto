@@ -6,8 +6,10 @@ export function Analytics() {
       <Script
         async
         src={`https://www.googletagmanager.com/gtag/js?id=G-R47RYY2V61`}
+        strategy="beforeInteractive"
       />
       <Script
+        strategy="beforeInteractive"
         id="Google-analytics"
         dangerouslySetInnerHTML={{
           __html: `
