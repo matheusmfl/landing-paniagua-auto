@@ -27,7 +27,6 @@ export function HeroSection() {
           alt="Foto de background com carro"
           loading="lazy"
           placeholder="blur"
-          fill
         />
       </div>
       <div className="px-5 pt-2 lg:py-2 flex flex-col lg:hidden items-center justify-center bg-slate-100 shadow-lg rounded-lg z-20">
