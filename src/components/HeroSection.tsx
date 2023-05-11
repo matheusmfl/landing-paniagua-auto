@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import heroImg from '../../public/heroImg.jpg'
+// import Image from 'next/image'
+// import heroImg from '../../public/heroImg.jpg'
 import { H2, Span } from './microComponents/Texts'
 import { Button } from './microComponents/Button'
 
@@ -21,13 +21,13 @@ export function HeroSection() {
           <Button>Solicitar Cotação</Button>
         </div>
       </div>
-      <div className="absolute lg:static lg:shadow-xl bg-slate-900 top-[-2px] bottom-0 left-0 right-0">
+      {/* <div className="absolute lg:static lg:shadow-xl bg-slate-900 top-[-2px] bottom-0 left-0 right-0">
         <Image
           src={heroImg}
           alt="Foto de background com carro"
           loading="lazy"
         />
-      </div>
+      </div> */}
       <div className="px-5 pt-2 lg:py-2 flex flex-col lg:hidden items-center justify-center bg-slate-100 shadow-lg rounded-lg z-20">
         <H2 style="text-cyan-900">
           <span className="font-extrabold">Tranquilidade</span>{' '}
