@@ -13,7 +13,7 @@ export function Section1() {
           </Span>
         </div>
 
-        <div className="flex items-center flex-col mt-10">
+        <div className="flex items-center flex-col mt-14 pb-10 lg:mt-10">
           <Button>Solicitar cotação</Button>
         </div>
       </div>

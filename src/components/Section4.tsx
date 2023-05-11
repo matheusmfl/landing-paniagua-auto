@@ -62,7 +62,7 @@ export function Section4() {
             <Image src={icon4} alt="ícone de um Guincho" />
           </ItemIcon>
           <span className="text-center font-normal text-white text-base">
-            Melhor custo-benefício do mercado
+            Melhor <br /> custo-benefício
           </span>
         </div>
       </div>
