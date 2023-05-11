@@ -27,21 +27,8 @@ export function Section3() {
         </div>
       </section>
 
-      <section className="relative lg:hidden h-[400px] lg:h-auto">
-        <div className="absolute top-0 z-[-1]">
-          <Image src={hero} alt="Imagem de homem no sofá contratando seguro" />
-        </div>
-
-        <div className="py-10 px-10 flex flex-col gap-5">
-          <h2 className="text-2xl font-normal text-slate-800">
-            <span className="font-extrabold">A segurança</span> que você precisa{' '}
-            <span className="font-bold text-yellow-800">sem sair de casa</span>
-          </h2>
-
-          <span className="text-white lg:text-slate-900 font-normal">
-            Sem dificuldades na hora da contratação.
-          </span>
-        </div>
+      <section>
+        <Image src={hero} alt="Imagem de homem no sofá contratando seguro" />
       </section>
     </>
   )

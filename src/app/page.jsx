@@ -9,15 +9,17 @@ import { SectionAccordion } from '@/components/SectionAccordeon'
 
 export default function Home() {
   return (
-    <main>
-      <HeroSection />
-      <Section1 />
-      <Section2 />
-      <SectionAccordion />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Footer />
-    </main>
+    <>
+      <main>
+        <HeroSection />
+        <Section1 />
+        <Section2 />
+        <SectionAccordion />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <Footer />
+      </main>
+    </>
   )
 }
