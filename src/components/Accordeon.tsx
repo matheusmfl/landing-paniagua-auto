@@ -1,48 +1,42 @@
 'use client'
 import * as Accordion from '@radix-ui/react-accordion'
-import Image from 'next/image'
-import arrow from '../../public/acordeonArrow.png'
+
+import { accordeonItems } from '@/utils/accordeon'
+import { ChevronDownIcon } from '@radix-ui/react-icons'
 
 export function AccordionPani() {
   return (
-    <div className="flex bg-orange-300">
-      <div>
-        <Accordion.Root
-          type="single"
-          collapsible
-          className="bg-zinc-900 w-[300px] rounded-md shadow-[0_2px_10px] border-t-2 border-b-2 border-white shadow-black/5"
-        >
-          <Accordion.Item value="cobertura-1">
-            <Accordion.Trigger className="w-full">
-              <div className="flex bg-slate-400 w-full justify-between">
-                <div className="p-[10px]">
-                  <span className="text-sm font-normal">
-                    Carros 0KM com FIPE segura
-                  </span>
-                </div>
-                <div className="h-full bg-orange-600 w-11">
-                  <Image src={arrow} alt="Arrow" />
-                </div>
-              </div>
-            </Accordion.Trigger>
+    <div className="flex w-[300px] lg:w-full shadow-[0_2px_10px] shadow-black/5">
+      <div className="lg:w-full">
+        <Accordion.Root type="single" collapsible className="lg:w-full">
+          {accordeonItems.map((item) => {
+            return (
+              <Accordion.Item
+                key={item.id}
+                value={`cobertura ${item.id}`}
+                className="first:mt-0 overflow-hidden focus-within:shadow-[0_0_0_1px] focus-within:shadow-slate-600  focus-within:z-10 focus-within:relative first:rounded-t last:rounded-b"
+              >
+                <Accordion.Trigger className="w-[300px] lg:w-full group leading-none shadow-[0_1px_0] shadow-slate-600 outline-none ">
+                  <div className="flex p-[10px] bg-slate-100 w-full justify-between hover:bg-slate-500 hover:text-white text-sm font-normal text-slate-900 ">
+                    <span>{item.title}</span>
+                    <div className="flex items-center justify-center text-inherit ease-[cubic-bezier(0.87,_0,_0.13,_1)] transition-transform duration-300 group-data-[state=open]:rotate-180">
+                      <ChevronDownIcon aria-hidden />
+                    </div>
+                  </div>
+                </Accordion.Trigger>
 
-            <Accordion.Content>
-              <div className="flex bg-slate-400">
-                <div className="p-[10px]">
-                  <span className="text-sm font-normal">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                    dicta minima, ipsa quis pariatur, velit, necessitatibus quos
-                    saepe accusamus nostrum cum animi sit. Alias est iusto
-                    corrupti blanditiis unde illum. Dicta minima cumque facilis,
-                    libero quisquam illum? Voluptate exercitationem veritatis
-                    adipisci facere non, sequi impedit at, accusantium fugiat
-                    totam recusandae cupiditate ipsum repellendus quae delectus
-                    officia! Dolores cumque corrupti assumenda.
-                  </span>
-                </div>
-              </div>
-            </Accordion.Content>
-          </Accordion.Item>
+                <Accordion.Content className="data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden w-[300px] lg:w-full">
+                  <div className="flex bg-slate-400">
+                    <div className="p-[10px]  text-left">
+                      <span className="text-sm font-normal text-white">
+                        {item.content}
+                      </span>
+                    </div>
+                  </div>
+                </Accordion.Content>
+              </Accordion.Item>
+            )
+          })}
         </Accordion.Root>
       </div>
     </div>
