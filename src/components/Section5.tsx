@@ -3,11 +3,11 @@ import image from '../../public/imgFinal.jpg'
 
 export function Section5() {
   return (
-    <section className="flex bg-slate-200 flex-col lg:flex-row-reverse">
+    <section className="flex bg-slate-200 flex-col lg:flex-row-reverse  ">
       <div className="lg:w-full lg:h-full">
         <Image src={image} alt="Imagem de carros em trânsito" />
       </div>
-      <div className="py-20 px-5 flex flex-col gap-5 lg:pt-20 lg:pb-0 lg:px-10">
+      <div className="py-20 px-5 flex flex-col gap-5 lg:pt-10 lg:pb-0 lg:px-10">
         <h2 className="text-2xl text-slate-900 lg:text-4xl">
           A mais de <span className="font-bold text-yellow-600">22 anos</span>{' '}
           criando ambientes seguros com{' '}
