@@ -5,7 +5,11 @@ export function Section5() {
   return (
     <section className="flex bg-slate-200 flex-col lg:flex-row-reverse  ">
       <div className="lg:w-full lg:h-full">
-        <Image src={image} alt="Imagem de carros em trânsito" />
+        <Image
+          src={image}
+          alt="Imagem de carros em trânsito"
+          sizes="(max-width: 600px) 400px, (max-width: 1200px) 800px, 1200px"
+        />
       </div>
       <div className="py-20 px-5 flex flex-col gap-5 lg:w-[90%] lg:py-14 lg:px-20">
         <h2 className="text-2xl text-slate-900 lg:text-2xl">
