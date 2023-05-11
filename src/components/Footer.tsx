@@ -3,6 +3,7 @@ import logo from '../../public/logoPaniagua.png'
 import iconWpp from '../../public/socialIcons/Whatsapp.svg'
 import iconPhone from '../../public/socialIcons/Telephone.svg'
 import iconMail from '../../public/socialIcons/Email.svg'
+import { AccordionPani } from './Accordeon'
 
 export function Footer() {
   return (
@@ -28,6 +29,8 @@ export function Footer() {
         </ul>
         <span>© 2023 Paniagua - Corretora. Todos os direitos reservados</span>
       </nav>
+
+      <AccordionPani />
     </footer>
   )
 }
