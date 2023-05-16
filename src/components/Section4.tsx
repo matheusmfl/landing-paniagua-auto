@@ -26,7 +26,7 @@ export function Section4() {
         <span className="font-bold text-yellow-500"> bem-estar</span>
       </h2>
 
-      <div className="grid grid-cols-2 grid-rows-2 gap-y-10 lg:flex lg:gap-5 lg:cursor-pointer">
+      <div className="grid grid-cols-2 grid-rows-2 gap-y-10 lg:flex lg:gap-5 lg:justify-center lg:cursor-pointer">
         <div className="flex flex-col gap-5 items-center">
           <ItemIcon>
             <Image src={icon1} alt="ícone de um Guincho" />
